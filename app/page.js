@@ -7,10 +7,13 @@ export default function Home() {
         <div>
             <h1>HOME</h1>
             <div>
-                <Link href="/success">link to modal</Link>
+                <Link href="/modal">link to modal</Link>
             </div>
             <div>
                 <Link href="/product">link to product</Link>
+            </div>
+            <div>
+                <Link href="/product/category">link to product category</Link>
             </div>
         </div>
     );
